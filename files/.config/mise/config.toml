@@ -1,0 +1,12 @@
+[env]
+EDITOR = "nvim"
+SHELL = "/bin/bash"
+TERM = "xterm-256color"
+VISUAL = "nvim"
+
+[tools]
+"aqua:BurntSushi/ripgrep" = "latest"
+"aqua:cli/cli" = "latest"
+"aqua:junegunn/fzf" = "latest"
+"github:EmmyLuaLs/emmylua-analyzer-rust" = { version = "0.25.1", matching_regex = "^emmylua_ls-" }
+"github:neovim/neovim" = "nightly"

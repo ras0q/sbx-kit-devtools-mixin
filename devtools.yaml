@@ -1,0 +1,7 @@
+# syntax=docker/sandbox-kit:3
+schemaVersion: "3"
+kind: mixin
+displayName: Development tools
+description: CLI tools and Neovim configuration managed with mise
+sourceUrl: https://github.com/ras0q/sbx-kit-devtools-mixin
+provides: ["mise@2026.10.25"]
